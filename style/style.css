@@ -23,6 +23,7 @@ footer {
     justify-content: center;
     align-items: center;
     color: white;
+    flex-direction: column;
 }
 
 .main div {
@@ -44,4 +45,11 @@ footer {
     background-image: url('../assets/button1.png');
     background-size: cover;
     padding: 4px;
+}
+
+#back {
+    margin-top: 2em;
+    border-color: black;
+    padding: 5px;
+    background-blend-mode: difference;
 }
