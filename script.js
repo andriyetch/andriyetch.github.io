@@ -15,6 +15,7 @@ window.onload = () => {
         ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣼⣿⣿⣿⣷⣄⣸⣿⣿⣿⣿⣿⣿⣿⣿
         ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⢿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿`;
         audio = new Audio('./dorime.mp3');
+        audio.currentTime = 2;
         audio.play();
 
         
