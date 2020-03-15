@@ -21,7 +21,7 @@ window.onload = () => {
         
     });
     document.getElementById('button2').addEventListener('click', () => {
-        alert('pick another button bitch');
+        alert('you are invited to pick another button');
     });
 
 }
