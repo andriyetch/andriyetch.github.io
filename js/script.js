@@ -1,6 +1,9 @@
 window.onload = () => {
     document.getElementById('button1').addEventListener('click', () => {
-        var mainText = document.getElementById("main");
+        document.getElementById('main').remove();
+        
+        var mainText = document.getElementById("circle");
+        mainText.classList.add('main');
         mainText.innerText = `
         ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
         ⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿
@@ -21,7 +24,7 @@ window.onload = () => {
         
     });
     document.getElementById('button2').addEventListener('click', () => {
-        alert('you are invited to pick another button');
+        alert('pick another button bitch');
     });
 
 }
