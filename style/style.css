@@ -26,11 +26,25 @@ footer {
     flex-direction: column;
 }
 
+.main-dupe{
+    background-image: url('../assets/spacebg.jpg');
+    background-size: cover;
+    height: 89vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.main-dupe:hover{
+    cursor: pointer;
+}
 .main div {
     font-size: 2em;
     border: 2px solid lightcoral;
     border-radius: 10px;
-    margin: 24px;
+    margin: 150px;
     cursor: pointer;
     display: flex;
     text-align: center;
@@ -39,17 +53,10 @@ footer {
 #button1 {
     background-image: url('../assets/button1.png');
     background-size: cover;
-    padding: 4px;
+    padding: 8px;
 }
 #button2 {
     background-image: url('../assets/button1.png');
     background-size: cover;
     padding: 4px;
-}
-
-#back {
-    margin-top: 2em;
-    border-color: black;
-    padding: 5px;
-    background-blend-mode: difference;
 }
