@@ -26,7 +26,10 @@ footer {
     height: max-content;
     padding-top: 50px;
     padding-bottom: 50px;
-    background-color: lightcyan;
+    background-color: cyan;
+    #background-image: url(../assets/index/background.jpg);
+    background-size: cover;
+    background-position-y: center;
     display: flex;
     justify-content: center;
 }

@@ -18,7 +18,7 @@ footer {
 .main {
     background-image: url('../assets/dorime/spacebg.jpg');
     background-size: cover;
-    height: 89vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -29,7 +29,7 @@ footer {
 .main-dupe{
     background-image: url('../assets/dorime/spacebg.jpg');
     background-size: cover;
-    height: 89vh;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
