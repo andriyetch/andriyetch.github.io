@@ -1,0 +1,88 @@
+header {
+    height: 3em;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    font-size: 2em;
+    font-weight: 500;
+    justify-content: center;
+    background-color: indianred;
+}
+
+footer {
+    height: 5em;
+    padding-top: 10px;
+    text-align: center;
+    align-items: center;
+    font-size: 1em;
+    font-weight: 500;
+    justify-content: center;
+    background-color: indianred;
+    text-decoration: none;
+}
+
+.main-container {
+    width: 100%;
+    height: max-content;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: lightcyan;
+    display: flex;
+    justify-content: center;
+}
+
+.column {
+    float: left;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.item {
+    width: 400;
+    height: 200px;
+    margin: 24px;
+    background-color: lightgoldenrodyellow;
+    border: 1px solid grey;
+    border-radius: 12px;
+    overflow: hidden;
+    cursor: pointer;
+    display: flex;
+}
+.item:hover {
+    transform: translateY(3px);
+    transition: all .1s;
+}
+
+.item-text {
+    background-color:indianred;
+    width: 50%;
+    padding: .5em;
+    font-size: 2.5em;
+}
+
+.item-image {
+    width: 50%;
+    padding-right: 40px;
+}
+
+#dorime {
+    background-image: url(../assets/index/doge.png);
+    background-size: cover;
+}
+
+#discord {
+    background-image: url(../assets/index/discord.jpg);
+    background-size: cover;
+}
+
+#projects {
+    background-image: url(../assets/index/projects.webp);
+    background-size: cover;
+}
+
+#refsheet {
+    background-image: url(../assets/index/refsheet.png);
+    background-size: cover;
+}

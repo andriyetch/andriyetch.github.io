@@ -1,0 +1,62 @@
+header {
+    height: 4vh;
+    background-color: lightcoral;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    height: 2vh;
+    margin-top: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main {
+    background-image: url('../assets/dorime/spacebg.jpg');
+    background-size: cover;
+    height: 89vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.main-dupe{
+    background-image: url('../assets/dorime/spacebg.jpg');
+    background-size: cover;
+    height: 89vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    flex-direction: column;
+}
+
+.main-dupe:hover{
+    cursor: pointer;
+}
+.main div {
+    font-size: 2em;
+    border: 2px solid lightcoral;
+    border-radius: 10px;
+    margin: 150px;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+}
+
+#button1 {
+    background-image: url('../assets/dorime/button1.png');
+    background-size: cover;
+    padding: 8px;
+}
+#button2 {
+    background-image: url('../assets/dorime/button1.png');
+    background-size: cover;
+    padding: 4px;
+}
